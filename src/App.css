@@ -1,0 +1,405 @@
+ /* *{
+  margin: 0%;
+  padding: 0%;
+  
+}   */
+body{
+  background-color: #f3f4ef;
+  
+}
+
+/* .App{
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+   /* margin-left: 500px;  */
+   /* margin-top: 10px;  */
+   /* padding: 40px; */
+  /* background-color: white; */
+/* }  */ 
+
+.navbar{
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin-top: 0px;
+  /* padding-top:0px ; 
+  padding-right: 30px;
+  /* margin-left: ; */
+}
+h1{
+  margin-left: 10px;
+}
+
+.card{
+  height: 550px;
+  width: 380px;
+  margin-left: 40px;
+  /* padding-left: 15px; */
+  border-radius: 25px;
+}
+.cardTop{
+  height:250px ;
+  width:380px ;
+  margin-left: 0%;
+  padding-left: 0%;
+  border-radius: 25px;
+}
+.cardbody{
+  
+  padding-left: 15px;
+  /* border-radius: 25px; */
+}
+.max{
+  height:38px ;
+  width:38px ;
+  margin-left: 65px;
+  display: inline;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 1px;
+  /* background-color: rgb(223, 17, 7); */
+}
+.min{
+  height:38px ;
+  width:38px ;
+  margin-left: 13px;
+  display: inline;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 1px;
+}
+.count{
+  height:38px ;
+  width:38px ;
+  margin-left: 13px;
+  display: inline;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 1px;
+}
+.total{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+  width: 270px;
+  height: 45px;
+  border-radius: 8px;
+  margin-left:32px ;
+  background-color: rgb(252, 195, 7);
+  border: none;
+}
+.card:hover{
+ 
+  /* border:2px solid black; */
+  box-shadow: 3px 3px 3px 3px black;
+
+}
+.buybutton{
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  margin-left:5px ;
+  background-color: rgb(252, 195, 7);
+  border: none;
+}
+.cards1{
+  display: flex;
+  /* padding-left: 200px; */
+  margin-top: 100px;
+  /* margin-left: 40px; */
+}
+
+.cards2{
+  display: flex;
+  /* padding-left: 200px; */
+  margin-top: 100px;
+  /* margin-left: 40px; */
+}
+
+.cards3{
+  display: flex;
+  /* padding-left: 200px; */
+  margin-top: 100px;
+  /* margin-left: 40px; */
+}
+.cards4{
+  display: flex;
+  /* padding-left: 200px; */
+  margin-top: 100px;
+  /* margin-left: 40px; */
+}
+.cards5{
+  display: flex;
+  /* padding-left: 200px; */
+  margin-top: 100px;
+  /* margin-left: 40px; */
+}
+
+#common{
+  margin-left: 200px;
+  padding-left: 200px;
+}
+/* Remove default link styling */
+.navbar a {
+  color: rgb(250, 245, 245); /* Change this to your preferred color */
+  text-decoration: none; /* Remove underline */
+  font-size: 24px; /* Adjust the font size as needed */
+  margin: 0px; /* Space out the links */
+  padding: 10px 15px; /* Add padding for better click area */
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: #FF6347; /* Or choose your preferred hover color */
+  transition: color 0.3s ease;
+  font-size: 27px;
+}
+
+/* Increase size on focus (optional) */
+.navbar a:focus {
+  outline: none; /* Removes the outline */
+  font-size: 22px; /* Optional, if you want it to grow a little when focused */
+}
+
+.bi_cart{
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+
+.container{
+  background-color: #fb5607;
+  /* background-image: url("/background.png"); */
+  /* background-size: cover;   */
+  color: white;
+  /* display: flex; */
+  height:700px;
+  /* width:2500px; */
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+.homepage{
+  display: inline-flex;
+  /* flex-direction: column; */
+}
+.para{
+  margin-left: 10px;
+}
+.homeicon{
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: black;
+}
+h2{
+  margin-left: 15px;
+  margin-top: 20px;
+  color: black;
+  font-size: 25px;
+}
+
+.profileicon{
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 1105px;
+  color: black;
+}
+.searchbar{
+  width: 750px;
+  margin-left: 280px; 
+  margin-top: 50px;
+  border-radius: 20%;
+} 
+.searchbtn{
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+}
+.text{
+  color: #0d1b2a;
+}
+
+h3{
+  margin-top: 40px;
+  color: #0d0d0e;
+  font-weight: 900;
+  font-size: 100px;
+  margin-left: 150px;
+  display: flex;
+}
+h5{
+  margin-top: 10px;
+  color: #e9eef5;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-left: 10px;
+}
+p1{
+  margin-top: 10px;
+  color: #e9eef5;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-left: 150px;
+}
+h4{
+  margin-top: 10px;
+  color: #0d0d0d;
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 150px;
+  display: flex;
+  display: inline-flex;
+}
+/* p{
+  margin-top: 10px;
+  color: #e9eef5;
+  font-weight: bolder;
+  font-size: 72px;
+  margin-left: 10px;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black;
+  margin-left: 10px;
+}
+.background{
+  height:120px;
+  width: 120px;
+  margin-top: 40px;
+  margin-left: 79px;
+  border-radius: 50%;
+  
+}
+
+#varieties{
+  font-size: 30px;
+  display: flex;
+}
+.food{
+  display: flex;
+  height: 230px;
+  background-color: #504141;
+  color: #e9eef5;
+  margin-top: 2px;
+}
+.carousel-item2{ 
+    background-color: #0d0d0d; 
+}
+#para2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.page2{
+  height: 650px;
+  
+  background-color: #fb5607;
+  color: white;
+}
+.menu{
+  margin-left: 500px;
+}
+.container{
+  height: 650px;
+  width: 2500px;
+}
+.foodie{
+  height:650px ;
+  /* width: 2500px; */
+  
+}
+#imagetext{
+  margin-left: 105px;
+  margin-top: 10px;
+  font-size: 21px;
+}
+
+.background:hover{
+  height:140px;
+  width: 140px;
+}
+
+.sphageti{
+  height:400px ;
+  width: 650px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.goodfood{
+  height:400px ;
+  width: 650px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.quotes{
+  display: flex;
+}
+#quotes1{
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 61px;
+}
+.burger{
+  height:440px ;
+  width: 1000px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 70px;
+}
+.quote{
+  display: flex;
+}
+#quotes2{
+  margin-left: 50px;
+  margin-top: 140px;
+  font-size: 61px;
+}
+.crousel1{
+  height:420px ;
+  width: 1300px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.Quote{
+  display: flex;
+}
+#quotes3{
+  margin-left: 40px;
+  margin-top: 160px;
+  font-size: 61px;
+}
+#foodcrave{
+  font-size: 90px;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.cravings{
+  display: flex;
+}
+.craveimage{
+  height: 400px;
+  width: 510px;
+  margin-top: 70px;
+  margin-left: 42px;
+}
+#cravetext{
+   margin-left: 70px;
+   font-size: 40px;
+   font-weight: 500;
+}
+.pic2{
+  height:650px ;
+  width: 1200px;
+  margin-left: 50px;
+}
